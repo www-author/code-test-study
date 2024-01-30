@@ -1,12 +1,16 @@
 class Solution {
     public int solution(int n) {
         int sum = 0;
-        for (int i = 0; i <= n; i++) {
-            if (i % 2 == 0) {
-            sum += i;
+        int index = 0;
+        
+        while(index < n) {
+            index++;
+            if (index % 2 !=0){
+                continue;
             }
-            
+            sum += index;
         }
+        
         
         return sum;
     }
