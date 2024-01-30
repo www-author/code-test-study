@@ -2,12 +2,11 @@ class Solution {
     public int solution(int[] array, int height) {
         int answer = 0;
         
-        for(int i = 0; i < array.length; i++) {
-            if (array[i] > height) {
+        for(int studentHeight : array) {
+            if (studentHeight > height) {
                 ++answer;
             }
         }
-        
         return answer;
         
     }
