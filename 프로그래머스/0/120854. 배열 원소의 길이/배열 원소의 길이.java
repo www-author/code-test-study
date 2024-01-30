@@ -1,13 +1,10 @@
 class Solution {
     public int[] solution(String[] strlist) {
-        int[] answer = new int[strlist.length];
+             int[] answer = new int[strlist.length];
 
-        int index  = 0;
-        for (String str : strlist) {
-           answer[index] = str.length();
-           index++; 
+        for(int i=0; i<strlist.length;i++){
+            answer[i]= strlist[i].length();
         }
-        
         return answer;
     }
 }
