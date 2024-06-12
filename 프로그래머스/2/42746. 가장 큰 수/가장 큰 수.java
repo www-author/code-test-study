@@ -11,11 +11,13 @@ class Solution {
         Arrays.sort(stringOfNumbers, (x, y) -> (y + x).compareTo(x + y));
 
         if(stringOfNumbers[0].equals("0")) return "0";
-
+        return String.join("", stringOfNumbers);
         
+        /*
         for (String number :stringOfNumbers) {
             stringBuilder.append(number);
         }
         return stringBuilder.toString();
+        */
     }
 }
