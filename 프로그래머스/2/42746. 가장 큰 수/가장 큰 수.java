@@ -11,6 +11,7 @@ class Solution {
         Arrays.sort(stringOfNumbers, (x, y) -> (y + x).compareTo(x + y));
 
         if(stringOfNumbers[0].equals("0")) return "0";
+        
         return String.join("", stringOfNumbers);
         
         /*
