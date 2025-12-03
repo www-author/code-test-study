@@ -14,6 +14,7 @@ class Solution {
             answer *= (map.get(s) + 1);
         }
         answer--;
+
         return answer;
     }
 }
