@@ -8,7 +8,6 @@ class Solution {
         visit = new boolean[maps.length][maps[0].length];
         return bfs(0,0,maps);
     }
-
     static int bfs(int x, int y, int[][] arr){
         Queue<int[]> q = new LinkedList<>();
         q.add(new int[]{x,y,1});
