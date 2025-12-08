@@ -5,7 +5,8 @@ class Solution {
         int answer = 0;
         List<String> list1 = toSet(str1);
         List<String> list2 = toSet(str2);
-        
+
+
         if (list1.size()==0 && list2.size()==0) return 65536;
         int total = list1.size()+list2.size();
         for (String str : list1) {
