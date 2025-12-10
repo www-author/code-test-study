@@ -5,7 +5,6 @@ class Solution {
         int right = 0;
         int sum = 0;
         int size = sequence.length;
-        
         for(right = 0; right<sequence.length; right++){
             sum += sequence[right];
             while(right<sequence.length && sum > k){
