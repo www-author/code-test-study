@@ -15,7 +15,6 @@ class Solution {
     			answer += now.substring(1, now.length()).toLowerCase();
     			answer += " ";
     		}
-    		
     	}
     	
     	if(s.substring(s.length()-1, s.length()).equals(" ")){
