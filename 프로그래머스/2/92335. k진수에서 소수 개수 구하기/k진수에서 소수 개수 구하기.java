@@ -7,7 +7,6 @@ class Solution {
             sb.append(n % k);
             n /= k;
         }
-        
         for(String s : sb.reverse().toString().split("0")) {
             if(s.isEmpty()) continue;
             BigInteger num = new BigInteger(s);
