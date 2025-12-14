@@ -16,7 +16,6 @@ class Solution {
             }
             list.add(words[i]);
         }
-
         return answer;
     }
 
