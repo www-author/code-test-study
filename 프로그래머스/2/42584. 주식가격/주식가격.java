@@ -12,7 +12,6 @@ class Solution {
                 if (target > x) break;
             }
             index++;
-
         }
         return answer; 
     }
