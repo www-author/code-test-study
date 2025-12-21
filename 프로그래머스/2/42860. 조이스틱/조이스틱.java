@@ -12,6 +12,7 @@ class Solution {
             while(index<name.length() && name.charAt(index) == 'A') {
                 index++;
             }
+
             move = Math.min(move, i*2+name.length()-index);
             move = Math.min(move, (name.length()-index)*2 + i);
         }
