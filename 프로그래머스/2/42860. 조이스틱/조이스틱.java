@@ -5,7 +5,6 @@ class Solution {
         int answer = 0;
         int index;
         int move = name.length()-1;
-        
         for(int i=0;i<name.length();i++) {
             answer += Math.min(name.charAt(i) - 'A', 'Z' - name.charAt(i) + 1);
             
