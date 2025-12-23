@@ -3,10 +3,8 @@ class Solution {
     public String solution(String number, int k) {
         String answer = "";
         StringBuilder answerBuilder = new StringBuilder();
-
-        
         char[] array = number.toCharArray();
-        
+
         int len = array.length - k;
         
         int start = 0;
