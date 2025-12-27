@@ -10,7 +10,6 @@ class Solution {
         if(s.charAt(i) == '0') answer[1]++;
         else cntOne++;
       }
- 
       s = Integer.toBinaryString(cntOne);
       answer[0]++;
     }
