@@ -4,6 +4,7 @@ class Solution {
         PriorityQueue<int[]> pq = new PriorityQueue<>((o1,o2) -> o1[0] - o2[0]);
         int size = 0; 
         int count = 0;
+
         for(int i = 0; i < 24; i++){
             while(!pq.isEmpty() && pq.peek()[0] == i){
                 size -= pq.poll()[1];
