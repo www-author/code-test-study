@@ -13,6 +13,7 @@ class Solution {
             else unf[fb] = fa;
     	}
 	}
+
     public static int getRemainder(int n) {
     	int lt=0, rt=0;
     	for(int i=1; i<=n; i++) 
